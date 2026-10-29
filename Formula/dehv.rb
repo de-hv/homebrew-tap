@@ -2,7 +2,7 @@ class Dehv < Formula
   desc "My own desktop toolkit: zsh commands behind one name"
   homepage "https://github.com/de-hv/dehv"
   url "https://github.com/de-hv/dehv/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "<sha256 of the v0.2.0 tarball>"
+  sha256 "6259b687b96cece5abaa9643e2583182129d0ca115be7774b72aa22bf5cff1b2"
   head "https://github.com/de-hv/dehv.git", branch: "main"
 
   depends_on :macos
