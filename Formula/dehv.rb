@@ -1,7 +1,7 @@
 class Dehv < Formula
   desc "My own desktop toolkit: zsh commands behind one name"
   homepage "https://github.com/de-hv/dehv"
-  url "https://github.com/de-hv/dehv/archive/refs/tags/v0.2.0.tar.gz"
+  url "https://github.com/de-hv/dehv/archive/refs/tags/v0.2.1.tar.gz"
   sha256 "e7bff9b2b7ca17ad2a275bd329af4c6fe9b638482c13489f3ffb37015530baa0"
   head "https://github.com/de-hv/dehv.git", branch: "main"
 
