@@ -4,7 +4,7 @@ cask "dehv" do
 
   on_macos do
     on_arm do
-      sha256 "544af78147435423ea510b903c21f4230755a0da2dbde17ed2a6a73042699b9c"
+      sha256 "b0b453c4ddeceee1704188150a00e2e21f98c6af05a43c04e18ad0d4073bbecb"
       url "https://github.com/de-hv/dehv/releases/download/v#{version}/dehv_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
