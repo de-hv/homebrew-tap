@@ -4,11 +4,11 @@ cask "dehv" do
 
   on_macos do
     on_arm do
-      sha256 "b0b453c4ddeceee1704188150a00e2e21f98c6af05a43c04e18ad0d4073bbecb"
+      sha256 "1907a3b65cb3af9fbb1321cebb87614cb84e0019b4df5177d09659a47ac4cb89"
       url "https://github.com/de-hv/dehv/releases/download/v#{version}/dehv_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e1a12b2a4621e336e72b4b5eb923a59710c7b808dd245631245edf80feb25d36"
+      sha256 "f9460f7a39776d97f7af19d9862a094e6491904bd8ba60134a289740101a740d"
       url "https://github.com/de-hv/dehv/releases/download/v#{version}/dehv_#{version}_darwin_amd64.tar.gz"
     end
   end
@@ -26,9 +26,7 @@ cask "dehv" do
   zsh_completion "completions/_dehv"
 
   postflight_steps do
-    if OS.mac?
-      system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/dehv"]
-    end
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{staged_path}}/dehv"], must_succeed: false
   end
 
   # No zap stanza required
