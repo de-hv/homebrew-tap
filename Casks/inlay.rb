@@ -7,8 +7,8 @@ cask "inlay" do
   desc "Tiling window manager based on AeroSpace"
   homepage "https://github.com/de-hv/inlay"
 
-  depends_on macos: ">= :sonoma"
   depends_on arch: :arm64
+  depends_on macos: :sonoma
 
   app "Inlay.app"
   binary "#{appdir}/Inlay.app/Contents/Resources/bin/inlay"
