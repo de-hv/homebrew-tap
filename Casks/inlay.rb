@@ -1,6 +1,6 @@
 cask "inlay" do
-  version "0.3.0"
-  sha256 "56727c5d32036b80745602dbf326e0d4ecba5db2cbec75a8876b8a0f1effd4fa"
+  version "0.4.0"
+  sha256 "52bf070426246b4b3bd0fc9c1f9455fa5da3583baa13c74c228c46da941af3b3"
 
   url "https://github.com/de-hv/inlay/releases/download/v#{version}/Inlay-#{version}.zip"
   name "Inlay"
