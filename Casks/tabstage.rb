@@ -1,11 +1,11 @@
 cask "tabstage" do
-  version "0.7.2"
-  sha256 "29f20b674bda5583558059b06a9e5aa70a3d107e39c5890582880a8bf38d007a"
+  version "0.7.3"
+  sha256 "7f767ab2a67805248d7acd68aed4577fd7305ae097ceb4b3d10033be1353940e"
 
-  url "https://github.com/de-hv/tabstage-desktop/releases/download/v#{version}/Tabstage_#{version}_universal.dmg"
+  url "https://github.com/de-hv/tabstage/releases/download/v#{version}/Tabstage_#{version}_universal.dmg"
   name "Tabstage"
   desc "Groups of tabs that open in the browser you choose"
-  homepage "https://de-hv.github.io/tabstage-desktop/"
+  homepage "https://de-hv.github.io/tabstage/"
 
   depends_on :macos
 
