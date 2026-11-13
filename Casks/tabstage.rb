@@ -1,6 +1,6 @@
 cask "tabstage" do
-  version "0.6.0"
-  sha256 "12c9447b3a57f063cdd6773bd9ff9b6a79c9dd95465eb4bd6bffd17e40562beb"
+  version "0.7.0"
+  sha256 "34cf04de9e02ed4abdee58a2b8bf7b411c3431dacbe4f1db7a5b55f18a35d90f"
 
   url "https://github.com/de-hv/tabstage-desktop/releases/download/v#{version}/Tabstage_#{version}_universal.dmg"
   name "Tabstage"
